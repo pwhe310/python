@@ -1,0 +1,4 @@
+from datetime import datetime
+pig = datetime.now()
+
+print "%02d/%02d/%04d \n%02d:%02d:%02d" % (pig.month, pig.day, pig.year, pig.hour, pig.minute, pig.second)
