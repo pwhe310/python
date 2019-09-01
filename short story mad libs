@@ -1,0 +1,7 @@
+noun1 = raw_input("Come up with a noun: ")
+adjective1 = raw_input("Come up with a adjective: ")
+
+
+print "\nA vacation is when you take a trip to some %s place " \
+      "with your family. \nUsually you go to some place that is" \
+      " near a/an %s" % (adjective1, noun1)
