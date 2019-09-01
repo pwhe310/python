@@ -7,9 +7,15 @@ if char_chose1 == "m" or char_chose1 == "mountains":
         print "you die"
     elif char_chose2 == "p" or char_chose2 == "peace":
         print "you are now friends iwth the yetty"
+    else:
+        print "your input is not know"
 elif char_chose1 == "c" or char_chose1 == "cave":
     char_chose3 = raw_input("you see a vimpire in the cave. do you want to become friends with it or attack it?")
     if char_chose3 == "a" or char_chose3 == "attack":
         print "the vampire sucks your blood and dieds"
     elif char_chose3 == "f" or char_chose3 == "friends":
         print "the vimpire does not want you in his cave and forces you out"
+    else:
+        print "your input is not known"
+else:
+    print "your input is not known."
