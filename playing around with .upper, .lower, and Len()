@@ -1,0 +1,5 @@
+name = raw_input("what is your name?")
+quest = raw_input("what is your quest")
+fav_color = raw_input("what is your fav color?")
+
+print "Hello %s, your quest was to %s and your fav color is %s" % (name.upper(), quest.lower(), len(fav_color))
