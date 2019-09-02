@@ -1,0 +1,9 @@
+origianl = raw_input("\n\nWelcome to words that are changed to pig latin.\nWhat world do you want?")
+pyg = "ay"
+s_first = origianl[0]
+
+if len(origianl) > 0 and origianl.isalpha():
+    new_word = origianl[1:len(origianl)] + s_first + pyg
+    print new_word
+else:
+    print "empty"
