@@ -1,0 +1,14 @@
+def dorm_House(house):
+    if house == "willison" or house == "bian" or house == "wood side":
+        print "your in the girls dorm"
+        return house
+    elif house == "potter" or house == "lapordo" or house == "cottage":
+        print "your in the boys dorm"
+        return house
+    else:
+        print "your a day student"
+        return "Your a day student at Landmark"
+
+house_in_dorm = raw_input("what house do you live in?")
+
+dorm_House(house_in_dorm)
