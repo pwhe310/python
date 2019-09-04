@@ -1,0 +1,28 @@
+#def hotel night
+def hotel(night):
+    return night * 140
+
+#def places
+def places_to_go(planeTrip):
+    if planeTrip == "Los Angles":
+        return 222
+    elif planeTrip == "New York":
+        return 345
+    elif planeTrip == "Paris":
+        return 350
+    elif planeTrip == "London":
+        return 400
+
+#def car rental
+def car_rental(days):
+    total_cost = days * 40
+    if days >= 7:
+        total_cost -= 50
+    elif days >= 3:
+        total_cost -= 20
+    return total_cost
+
+def whole_trip_cost(days, place):
+    return hotel(days -1) + places_to_go(place) + car_rental(days)
+
+print whole_trip_cost(5, "Los Angles"), whole_trip_cost(7, "London"), whole_trip_cost(10, "New York")
