@@ -1,0 +1,12 @@
+def tax(meal_cost):
+    meal_cost *= 1.08
+    return meal_cost
+
+def tip(meal_cost):
+    meal_cost *= 1.15
+    return meal_cost
+
+bill = 100
+
+print tax(bill)
+print tip(bill)
